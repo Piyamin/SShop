@@ -42,31 +42,31 @@ product =[
         "detail":"Octa Core 2.73GHz 10MP Front 64MP+12MP+12MP Back 8GB / 256GB / 6.7 FHD+4G Dual SIM + eSIM / 4300mAh S-PEN"
     },
     {
-        "product_id":"2",
-        "product_name":"Not",
-        "image_path":"",
-        "price":"",
-        "detail":""
+        "product_id":"7",
+        "product_name":"NOTEBOOK 2 IN 1 (โน้ตบุ๊คแบบแยกคีย์บอร์ด) MICROSOFT SURFACE GO 2 P/8/128 LTE + SURFACE GO TYPE COVER (CHARCOAL) + SURFACE PEN (CHARCOAL)",
+        "image_path":"https://www.jib.co.th/img_master/product/original/20210310151709_45720_66_1.jpg",
+        "price":"32700",
+        "detail":"CPU : INTEL PENTIUM GOLD 4425Y RAM : 8 GB STORAGE : 128 GB eMMC DISPLAY : 10.5” PIXELSENSE 1920 X 1280 10 POINT MULTI-TOUCH VGA : INTEL UHD GRAPHICS 615 (INTEGRATED) OS : WINDOWS 10 HOME"
     },
     {
-        "product_id":"2",
-        "product_name":"Not",
-        "image_path":"",
-        "price":"",
-        "detail":""
+        "product_id":"8",
+        "product_name":"16GB (8GBx2) DDR4/3200 RAM PC (แรมพีซี) CORSAIR VENGEANCE PRO SL RGB (BLACK) (CMH16GX4M2Z3200C16)",
+        "image_path":"https://www.jib.co.th/img_master/product/original/2021030813104145697_1.jpg",
+        "price":"6390",
+        "detail":"Capacity : 16 GB Speed : 3200 MHz Part Number : CMH16GX4M2Z3200C16 8GBx2"
     },
     {
-        "product_id":"2",
-        "product_name":"Not",
-        "image_path":"",
-        "price":"",
-        "detail":""
+        "product_id":"9",
+        "product_name":"KEYBOARD (คีย์บอร์ด) Tt ESPORTS NEPTUNE ELITE RGB (TTC BLUE SWITCH) (RGB LED) (EN/TH)",
+        "image_path":"https://th-test-11.slatic.net/p/0d5371b004f0cdb7e021d4ed761c9be7.jpg_720x720q80.jpg_.webp",
+        "price":"2190",
+        "detail":"FEATURES : TTC BLUE SWITCH."
     },
     {
-        "product_id":"2",
-        "product_name":"Not",
-        "image_path":"",
-        "price":"",
-        "detail":""
+        "product_id":"10",
+        "product_name":"ONITOR (จอมอนิเตอร์) ACER VG270BMIIX 27 IPS 75Hz",
+        "image_path":"https://www.tohome.com/images/imageproduct/500/26082020/AcerVG270bmiix-1.jpg?v=1",
+        "price":"5250",
+        "detail":"Size : 27 Brightness : 250 cd/m²  Contrast : 100000000 : 1 Response Time : 1 ms"
     },
 ]
