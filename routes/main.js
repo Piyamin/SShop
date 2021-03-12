@@ -117,4 +117,16 @@ router.get("/", (req, res, next) => {
   });
 });
 
+router.get("/detail", (req, res, next) => {
+  const products = product.find((o) => o.product_id === req.query.id);
+  res.render("detail", {
+    product: products,
+    pageTitle: "Detail",
+    path: "/",
+    hasProducts: products.length > 0,
+    activeShop: true,
+    productCSS: true,
+  });
+});
+
 module.exports = router;
