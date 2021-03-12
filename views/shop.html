@@ -1,24 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Add Product</title>
-</head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="/">Shop</a></li>
-                <li><a href="/admin/add-product">Add Product</a></li>
-                <li><a href="/profile/show-profile">Profile</a></li>
-            </ul>
-        </nav>
+    <link rel="stylesheet" href="/css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <header class="main-header">
+      <nav class="main-header__nav">
+        <ul class="main-header__item-list">
+          <li class="main-header__item"><a class="active" href="/">Shop</a></li>
+          <li class="main-header__item">
+            <a href="/admin/add-product">Add Product</a>
+          </li>
+          <li class="main-header__item"><a href="/admin/me">Profile</a></li>
+        </ul>
+      </nav>
     </header>
+
     <main>
-        <h1>My Products</h1>
-        <p>List of all the products...</p>
+      <h1>My Skill</h1>
+      <div class="row">
+        <div class="col-md-6">
+          <p>C++</p>
+          <div class="progress">
+            <div
+              class="progress-bar"
+              role="progressbar"
+              style="width: 100%"
+              aria-valuenow="100"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              C++ 100%
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <p>Python</p>
+          <div class="progress">
+            <div
+              class="progress-bar"
+              role="progressbar"
+              style="width: 80%"
+              aria-valuenow="80"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              80%
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
-</body>
+  </body>
 </html>
